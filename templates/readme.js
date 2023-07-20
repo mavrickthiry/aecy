@@ -1,0 +1,1 @@
+module.exports = `# Hi 👋, I'm Aecy`;
