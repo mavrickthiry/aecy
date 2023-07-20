@@ -1,6 +1,9 @@
 const { findIdentifierIndex, updateReadFile } = require('./utils');
 const readme = require('./templates/readme');
 
+const msDay = 1000 * 60 * 60 * 24;
+const today = new Date();
+
 const generateRead = () => {
 	const readmeRow = readme.split('\n');
 
@@ -16,10 +19,38 @@ const generateRead = () => {
 	};
 
 	const identifierToUpdate = {
-		day_defore_new_years: () => {},
-		my_self: () => {},
-		today_date: () => {},
-		bot_sign: () => {}
+		day_before_new_years: () => {
+			const nextYear = today.getFullYear() + 1;
+			const nextYearDate = new Date(String(nextYear));
+
+			const timeUntilNewYear = nextYearDate - today;
+			const dayUntilNewYear = Math.round(timeUntilNewYear / msDay);
+
+			return `**${dayUntilNewYear} day** before **${nextYear}** ✨`;
+		},
+		my_self: () => {
+			return today.getDate() % 2 === 0 ?
+				Math.floor(Math.random() * 2)
+					? 'rocket 🚀'
+					: 'ballon 🎈'
+					: 'rocket ballon 🚀🎈';
+		},
+		today_date: () => {
+			return today.toDateString();
+		},
+		bot_sign: () => {
+			const moods = {
+				1: 'hate',
+				2: 'wickedness',
+				3: 'pleasure',
+				4: 'wickedness',
+				5: 'cruelty',
+				6: 'horror',
+				7: 'love',
+			};
+			const mood = moods[today.getDay()];
+			return `🤖 This README.md has been updated with ${mood}, by Aecy ❤️`;
+		}
 	};
 
 	Object.entries(identifierToUpdate).forEach(([key, value]) => {
