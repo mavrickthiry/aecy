@@ -38,6 +38,13 @@ const generateRead = () => {
 		today_date: () => {
 			return today.toDateString();
 		},
+		hey: () => {
+			return today.getDate() % 2 === 0 ?
+				Math.floor(Math.random() * 2)
+					? '👋'
+					: '🤙'
+				: '✍';
+		},
 		bot_sign: () => {
 			const moods = {
 				1: 'hate',
