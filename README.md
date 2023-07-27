@@ -10,7 +10,6 @@ I represent myself as a rocket ballon 🚀🎈 and also a conceptor of virtual p
 
 Daytime counter before next year **158 day** before **2024** ✨
 
-<<<<<<< HEAD
 ## 👨‍🎓 About my knowledge
 
 Since 2014, I've always been interested in development.
@@ -54,11 +53,6 @@ But for video games, I've had several game servers created by myself from A to Z
 ## ❤️ Support
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/aecym)
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20coffee-FFDD00?style=for-the-badge&logo=Buy%20Me%20A%20Coffee&logoColor=white)](https://www.buymeacoffee.com/aecy)
-=======
-## ❤️ Support
-- [Buy me a coffee](https://www.buymeacoffee.com/aecy)
-- [Ko-fi](https://ko-fi.com/aecym)
->>>>>>> 05516a0ae12809746f726c79e23d90ae6876cc4b
 
 ## 🎭 REST
 Last update on `Thu Jul 27 2023`
