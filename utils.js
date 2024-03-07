@@ -5,6 +5,6 @@ module.exports = {
 		return rows.findIndex((r) => Boolean(r.match(new RegExp(`<#${identifier}>`, 'i'))));
 	},
 	updateReadFile: (text) => {
-		fs.writeFile('./README.md', text, () => console.log(text));
+		fs.writeFile('./README-old.md', text, () => console.log(text));
 	},
 }
