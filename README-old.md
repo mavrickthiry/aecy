@@ -8,7 +8,7 @@ I represent myself as a rocket ballon 🚀🎈 and also a conceptor of virtual p
 [![Twitter](https://img.shields.io/badge/Twitter-1D9BF0?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/aecyMV)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/channels/@me/258295794996609024)
 
-Daytime counter before next year **217 day** before **2027** ✨
+Daytime counter before next year **214 day** before **2027** ✨
 
 ## 👨‍🎓 About my knowledge
 
@@ -55,8 +55,8 @@ But for video games, I've had several game servers created by myself from A to Z
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20coffee-FFDD00?style=for-the-badge&logo=Buy%20Me%20A%20Coffee&logoColor=white)](https://www.buymeacoffee.com/aecy)
 
 ## 🎭 REST
-Last update on `Fri May 29 2026`
+Last update on `Mon Jun 01 2026`
 
-🤖 This README.md has been updated with cruelty, by Aecy ❤️
+🤖 This README.md has been updated with hate, by Aecy ❤️
 
 ![Visitor Count](https://profile-counter.glitch.me/Aecy/count.svg)
